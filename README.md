@@ -1,10 +1,7 @@
 English | [简体中文](./README.zh-CN.md)
-# vuepress-deploy ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=donnimsifa.vuepress-deploy)
+# vuepress-deploy
+
 A GitHub Action to build and deploy Vuepress sites to GitHub Pages
-
-Telegram Group: [https://t.me/joinchat/Cz9TxNMrjIs3OWQ1](https://t.me/joinchat/Cz9TxNMrjIs3OWQ1)
-
-QQ Group: 742434216
 
 ## Usage
 Create `vuepress-deploy.yml` in the `.github/workflows` directory in the root of your repository.
@@ -20,7 +17,7 @@ jobs:
       uses: actions/checkout@master
 
     - name: vuepress-deploy
-      uses: donnimsifa/vuepress-deploy@master
+      uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: username/repo
@@ -32,7 +29,7 @@ jobs:
 The action will auto deploy the vuepress project when you push your code. Enjoy!!!
 
 ## Demo 
-see: [https://github.com/donnimsifa/pendaftaran-demo](https://github.com/donnimsifa/pendaftaran-demo)
+see: [https://github.com/jenkey2011/vuepress-deploy-demo](https://github.com/jenkey2011/vuepress-deploy-demo)
 
 ## Detail
 
@@ -49,15 +46,15 @@ There are three situations. Each situation corresponds to a deployment file.
 
 **Here we can see:**
 
-- The action: [https://github.com/donnimsifa/pendaftaran-demo/actions](https://github.com/donnimsifa/pendaftaran-demo/actions)
+- The action: [https://github.com/jenkey2011/vuepress-deploy-demo/actions](https://github.com/jenkey2011/vuepress-deploy-demo/actions)
 
-- `A` TO `A:gh_pages`: [https://github.com/donnimsifa/pendaftaran-demo/tree/gh_pages](https://github.com/donnimsifa/pendaftaran-demo/tree/gh_pages)
+- `A` TO `A:gh_pages`: [https://github.com/jenkey2011/vuepress-deploy-demo/tree/gh_pages](https://github.com/jenkey2011/vuepress-deploy-demo/tree/gh_pages)
 
-- `A` TO `B:master`:[https://github.com/donnimsifa/pendaftaran-demo-target/tree/master](https://github.com/donnimsifa/pendaftaran-demo-target/tree/master)
+- `A` TO `B:master`:[https://github.com/jenkey2011/vuepress-deploy-demo-target/tree/master](https://github.com/jenkey2011/vuepress-deploy-demo-target/tree/master)
 
-- `A` TO `B:custom_branch`:[https://github.com/donnimsifa/pendaftaran-demo-target/tree/custom_branch](https://github.com/donnimsifa/pendaftaran-demo-target/tree/custom_branch)
+- `A` TO `B:custom_branch`:[https://github.com/jenkey2011/vuepress-deploy-demo-target/tree/custom_branch](https://github.com/jenkey2011/vuepress-deploy-demo-target/tree/custom_branch)
 
-- The GitHub Pages of the repository B： [https://donnimsifa.github.io/vuepress-deploy-demo-target/](https://donnimsifa.github.io/vuepress-deploy-demo-target/)
+- The GitHub Pages of the repository B： [https://jenkey2011.github.io/vuepress-deploy-demo-target/](https://jenkey2011.github.io/vuepress-deploy-demo-target/)
 
 > Step-by-Step Guide , please see the [Step-by-Step](#step-by-step-guide)
 
@@ -67,7 +64,7 @@ There are three situations. Each situation corresponds to a deployment file.
 |  Parameter |  Description | Type | Required
 | :------------ | :------------ |:------------ |:------------ |
 | `ACCESS_TOKEN` | Personal access token | `secrets`  |  **Yes** |
-| `TARGET_REPO` | The repository you want to deploy. e.g.:`donnimsifa/blog`. Default: **current repository** | `env` | **No** |
+| `TARGET_REPO` | The repository you want to deploy. e.g.:`jenkey2011/blog`. Default: **current repository** | `env` | **No** |
 | `TARGET_BRANCH` | The branch you want to deploy. e.g.:`gh-pages`.Default: **gh-pages** | `env` | **No** |
 | `TARGET_LINK` | The full address of the target repo will cover `TARGET_REPO` for other platforms. e.g.:`https://user:${{ secrets.CODING_TOKEN }}@team.coding.net/team/repo.git`. | `env` | **No** |
 | `BUILD_SCRIPT` | The script to build the vuepress project. e.g.: `yarn && yarn build` | `env` | **Yes** |

@@ -1,11 +1,7 @@
 [English](./README.md) | 简体中文
-# vuepress-deploy ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=donnimsifa.vuepress-deploy-cn)
+# vuepress-deploy
 
 自动构建、部署`vuepress`应用到Github Pages，自由设置仓库、分支
-
-电报群: [https://t.me/joinchat/Cz9TxNMrjIs3OWQ1](https://t.me/joinchat/Cz9TxNMrjIs3OWQ1)
-
-QQ群: 742434216
 
 ## 使用
 在你项目仓库`.github/workflows`目录下创建一个 `.yml`文件，举例：`vuepress-deploy.yml`。
@@ -23,7 +19,7 @@ jobs:
       uses: actions/checkout@master
 
     - name: vuepress-deploy
-      uses: donnimsifa/vuepress-deploy@master
+      uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: username/repo
@@ -35,7 +31,7 @@ jobs:
 
 ## 示例
 
-示例代码库: [https://github.com/donnimsifa/pendaftaran-demo](https://github.com/donnimsifa/pendaftaran-demo)
+示例代码库: [https://github.com/jenkey2011/vuepress-deploy-demo](https://github.com/jenkey2011/vuepress-deploy-demo)
 
 ### 实例说明
 
@@ -52,15 +48,15 @@ jobs:
 
 **在这看部署后的效果:**
 
-- 流水线编译过程: [https://github.com/donnimsifa/pendaftaran-demo/actions](https://github.com/donnimsifa/pendaftaran-demo/actions)
+- 流水线编译过程: [https://github.com/jenkey2011/vuepress-deploy-demo/actions](https://github.com/jenkey2011/vuepress-deploy-demo/actions)
 
-- `A` TO `A:gh_pages`: [https://github.com/donnimsifa/pendaftaran-demo/tree/gh_pages](https://github.com/donnimsifa/pendaftaran-demo/tree/gh_pages)
+- `A` TO `A:gh_pages`: [https://github.com/jenkey2011/vuepress-deploy-demo/tree/gh_pages](https://github.com/jenkey2011/vuepress-deploy-demo/tree/gh_pages)
 
-- `A` TO `B:master`:[https://github.com/donnimsifa/pendaftaran-demo-target/tree/master](https://github.com/donnimsifa/pendaftaran-demo-target/tree/master)
+- `A` TO `B:master`:[https://github.com/jenkey2011/vuepress-deploy-demo-target/tree/master](https://github.com/jenkey2011/vuepress-deploy-demo-target/tree/master)
 
-- `A` TO `B:custom_branch`:[https://github.com/donnimsifa/pendaftaran-demo-target/tree/custom_branch](https://github.com/donnimsifa/pendaftaran-demo-target/tree/custom_branch)
+- `A` TO `B:custom_branch`:[https://github.com/jenkey2011/vuepress-deploy-demo-target/tree/custom_branch](https://github.com/jenkey2011/vuepress-deploy-demo-target/tree/custom_branch)
 
-- `B`仓库`Git-page`效果： [https://donnimsifa.github.io/vuepress-deploy-demo-target/](https://donnimsifa.github.io/vuepress-deploy-demo-target/)
+- `B`仓库`Git-page`效果： [https://jenkey2011.github.io/vuepress-deploy-demo-target/](https://jenkey2011.github.io/vuepress-deploy-demo-target/)
 
 > 如果不了解`github workflow`什么的，看下面的[详细教程](#step-by-step-guide)
 
@@ -69,7 +65,7 @@ jobs:
 |  参数 | 含义 | 类型 | 是否必须
 | :------------ | :------------ |:------------ |:------------ |
 | `ACCESS_TOKEN` | github的token | `secrets`  |  **是** |
-| `TARGET_REPO` | 目标仓库，例： `donnimsifa/blog`。**默认当前仓库** | `env` | **否** |
+| `TARGET_REPO` | 目标仓库，例： `jenkey2011/blog`。**默认当前仓库** | `env` | **否** |
 | `TARGET_BRANCH` | 目标仓库的分支，例：`gh-pages`。**默认 gh-pages**| `env` | **否** |
 | `TARGET_LINK` | 目标仓库的完整链接，会覆盖目标仓库，用于其他平台，例：`https://user:${{ secrets.CODING_TOKEN }}@team.coding.net/team/repo.git`| `env` | **否** |
 | `BUILD_SCRIPT` | 构建脚本 例： `yarn && yarn build` | `env` | **是** |

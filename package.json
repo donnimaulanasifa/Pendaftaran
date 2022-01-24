@@ -2,5 +2,5 @@
   "name": "vuepress-deploy",
   "description": "A GitHub Action to build and deploy Vuepress sites to GitHub Pages",
   "license": "MIT",
-  "repository": "https://github.com/donnimsifa/pendaftaran"
+  "repository": "https://github.com/jenkey2011/vuepress-deploy"
 }
