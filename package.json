@@ -1,18 +1,20 @@
 {
-    "name": "Pendaftaran",
+    "name": "pendaftaran",
     "version": "0.0.1",
     "description": "this is a documentation",
     "main": "index.js",
     "authors": {
       "name": "Donni Maulana Sifa",
-      "email": "mdoni12@gmail.com"
+      "url": "donnimsifa.github.io"
     },
-    "repository": "donnimsifa.github.io/pendaftaran/",
+    "repository": {
+        "type": "git",
+        "url": "git+https://donnimsifa.github.io/pendaftaran.git"
+     },
     "scripts": {
         "start": "nodemon node doc-gen.js",
-        "dev": "vuepress dev docs",
-        "build": "vuepress build docs",
-        "deploy": "deploy.sh"
+        "dev": "vuepress dev",
+        "build": "vuepress build"
     },
     "license": "MIT",
     "devDependencies": {
