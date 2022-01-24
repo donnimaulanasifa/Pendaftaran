@@ -1,13 +1,13 @@
 FROM node:16.4.2-slim as base
 
-LABEL "com.github.actions.name"="Vuepress deploy"
+LABEL "com.github.actions.name"="Pendaftaran"
 LABEL "com.github.actions.description"="A GitHub Action to build and deploy Vuepress sites to GitHub Pages"
 LABEL "com.github.actions.icon"="upload-cloud"
 LABEL "com.github.actions.color"="gray-dark"
 
-LABEL "repository"="https://github.com/donnimsifa/pendaftaran"
-LABEL "homepage"="https://github.com/donnimsifa/pendaftaran"
-LABEL "maintainer"="donnimsifa <donnimsifa@163.com>"
+LABEL "repository"="https://github.com/donnimsifa/Pendaftaran"
+LABEL "homepage"="https://github.com/donnimsifa/Pendaftaran"
+LABEL "maintainer"="donnimsifa <mdoni12@gmail.com>"
 
 RUN apt-get update && apt-get install -y git jq
 
