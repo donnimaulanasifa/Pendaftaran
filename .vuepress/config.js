@@ -3,7 +3,7 @@ const { description } = require('../package')
 module.exports = {
   title: 'Vuepress Docs Boilerplate',
   description: description,
-  base: '/pendaftaran/',
+  base: '/Pendaftaran/',
 
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
