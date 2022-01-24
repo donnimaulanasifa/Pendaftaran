@@ -5,16 +5,13 @@
     "main": "index.js",
     "authors": {
       "name": "Donni Maulana Sifa",
-      "url": "donnimsifa.github.io"
+      "email": "mdoni12@gmail.com"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://donnimsifa.github.io/pendaftaran.git"
-     },
+    "repository": "donnimsifa.github.io/pendaftaran/",
     "scripts": {
-        "start": "nodemon node doc-gen.js",
         "dev": "vuepress dev",
-        "build": "vuepress build"
+        "build": "vuepress build",
+        "deploy": "deploy.sh"
     },
     "license": "MIT",
     "devDependencies": {
