@@ -10,8 +10,8 @@
     "repository": "donnimsifa.github.io/pendaftaran/",
     "scripts": {
         "start": "nodemon node doc-gen.js",
-        "docs:dev": "vuepress dev docs",
-        "docs:build": "vuepress build docs",
+        "dev": "vuepress dev docs",
+        "build": "vuepress build docs",
         "deploy": "deploy.sh"
     },
     "license": "MIT",
