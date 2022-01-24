@@ -1,3 +1,3 @@
 module.exports = {
-    extend: '@vuepress/vuepress-theme-succinct'
+    extend: 'vuepress-theme-succinct'
   }
