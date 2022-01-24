@@ -1,63 +1,98 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6adff723-8d84-47f5-89cf-85f1c6711af0/deploy-status)](https://app.netlify.com/sites/vuepress-template/deploys)
-<a href="#" target="_blank">
-<img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
-</a>
+English | [简体中文](./README.zh-CN.md)
+# vuepress-deploy ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=donnimsifa.vuepress-deploy)
+A GitHub Action to build and deploy Vuepress sites to GitHub Pages
 
-# VuePress with Netlify CMS
+Telegram Group: [https://t.me/joinchat/Cz9TxNMrjIs3OWQ1](https://t.me/joinchat/Cz9TxNMrjIs3OWQ1)
 
-> A website template with VuePress default theme and Netlify CMS config to get you started quickly
+QQ Group: 742434216
 
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/petedavisdev/VuePress-with-Netlify-CMS&amp;stack=cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
+## Usage
+Create `vuepress-deploy.yml` in the `.github/workflows` directory in the root of your repository.
 
-## Demo site
+```yml
+name: Build and Deploy
+on: [push]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
 
-<a href="https://vuepress-template.netlify.com/"><img src="https://raw.githubusercontent.com/petedavisdev/VuePress-with-Netlify-CMS/master/docs/.vuepress/public/media/VuePress_%2B_Netlify_CMS.png" alt="" /></a>
+    - name: vuepress-deploy
+      uses: donnimsifa/vuepress-deploy@master
+      env:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        TARGET_REPO: username/repo
+        TARGET_BRANCH: master
+        BUILD_SCRIPT: yarn && yarn build
+        BUILD_DIR: blog/.vuepress/dist/
+```
 
-Deployed on Netlify: [vuepress-template.netlify.app](https://vuepress-template.netlify.app/)
+The action will auto deploy the vuepress project when you push your code. Enjoy!!!
 
-Deployed on GitHub Pages: [petedavisdev.github.io/VuePress-with-Netlify-CMS](https://petedavisdev.github.io/VuePress-with-Netlify-CMS/)
+## Demo 
+see: [https://github.com/donnimsifa/pendaftaran-demo](https://github.com/donnimsifa/pendaftaran-demo)
 
-## Features
+## Detail
 
-### VuePress "best of both" static site generator
+The following guides are based on some shared assumptions:
 
-- Generates static html for every page so that your first page load is super fast
-- Once loaded, the site runs as a Single Page App (SPA), making it super slick
+- Source code repository(`vuepress-deploy-demo`), we call it `A`
+- Target repository(`vuepress-deploy-demo-target`), we call it `B`
 
-### Default VuePress starter theme
+There are three situations. Each situation corresponds to a deployment file. 
 
-- Navbar
-- Homepage layout
-- Page layout
-- Sidebar with heading navigation
-- Use Vue components within markdown to enhance your content
-- Customise your site by [inheriting from this default theme](https://vuepress.vuejs.org/theme/inheritance.html) or [create your own from scratch](https://vuepress.vuejs.org/theme/writing-a-theme.html)
+- `A` TO `A:gh_pages`: `deploy-to-current-repo-gh_pages.yml`
+- `A` TO `B:master`: `deploy-to-other-repo-master.yml`
+- `A` TO `B:custom_branch`: `deploy-to-other-repo-custom_branch.yml`
 
-### Netlify's CMS integration
+**Here we can see:**
 
-- User-friendly content editor with styled preview hosted at /admin on your website
-- Git-powered editorial workflow manages content in your repo automatically
-- Homepage fully configured with delete prevention
-- Page collection configured so that you can start creating content straight away
+- The action: [https://github.com/donnimsifa/pendaftaran-demo/actions](https://github.com/donnimsifa/pendaftaran-demo/actions)
 
-## Read the docs!
+- `A` TO `A:gh_pages`: [https://github.com/donnimsifa/pendaftaran-demo/tree/gh_pages](https://github.com/donnimsifa/pendaftaran-demo/tree/gh_pages)
 
-[How to use this templage](https://vuepress-template.netlify.app/guide/)
+- `A` TO `B:master`:[https://github.com/donnimsifa/pendaftaran-demo-target/tree/master](https://github.com/donnimsifa/pendaftaran-demo-target/tree/master)
 
-[Official VuePress guide](https://vuepress.vuejs.org/guide/)
+- `A` TO `B:custom_branch`:[https://github.com/donnimsifa/pendaftaran-demo-target/tree/custom_branch](https://github.com/donnimsifa/pendaftaran-demo-target/tree/custom_branch)
 
-[VuePress default theme config](https://vuepress.vuejs.org/theme/default-theme-config.html)
+- The GitHub Pages of the repository B： [https://donnimsifa.github.io/vuepress-deploy-demo-target/](https://donnimsifa.github.io/vuepress-deploy-demo-target/)
 
-[Netlify CMS docs](https://www.netlifycms.org/docs/intro/)
+> Step-by-Step Guide , please see the [Step-by-Step](#step-by-step-guide)
 
-## Contribute
 
-This template is default VuePress - so please give your [skills](https://github.com/vuejs/vuepress) or [money](https://opencollective.com/vuepress) to the [VuePress team](https://github.com/vuejs/vuepress).
+## Parameters
 
-## Author
+|  Parameter |  Description | Type | Required
+| :------------ | :------------ |:------------ |:------------ |
+| `ACCESS_TOKEN` | Personal access token | `secrets`  |  **Yes** |
+| `TARGET_REPO` | The repository you want to deploy. e.g.:`donnimsifa/blog`. Default: **current repository** | `env` | **No** |
+| `TARGET_BRANCH` | The branch you want to deploy. e.g.:`gh-pages`.Default: **gh-pages** | `env` | **No** |
+| `TARGET_LINK` | The full address of the target repo will cover `TARGET_REPO` for other platforms. e.g.:`https://user:${{ secrets.CODING_TOKEN }}@team.coding.net/team/repo.git`. | `env` | **No** |
+| `BUILD_SCRIPT` | The script to build the vuepress project. e.g.: `yarn && yarn build` | `env` | **Yes** |
+| `BUILD_DIR` | The output of the build-script above. e.g.: `blog/.vuepress/dist/` | `env` | **Yes** |
+| `COMMIT_MESSAGE` | The commit message supplied when pushing new changes e.g.: `Auto deploy from Github Actions` | `env` | **No** |
+| `CNAME` | Alias Record of your site. | `env` | **No** |
 
-Donni Maulana Sifa
 
-- Website: [petedavis.dev](https://donnimsifa.github.io)
-- Github: [@petedavisdev](https://github.com/petedavisdev)
-- Twitter: [@petedavisdev](https://twitter.com/petedavisdev)
+## Step-by-Step Guide
+
+### Create a personal access token
+
+click your profile icon > Settings > Developer settings > Personal access tokens > Generate new token > At least check `repo`. Then you will get a token, copy it.
+
+### Creating encrypted secrets
+
+Under your repository name, click  Settings > Secrets > Type `ACCESS_TOKEN` in the "Name" input box && the the personal access token as value.
+
+### Create a workflow file
+If you repo doesn't already have one, create a workflow file. You must store workflows in the `.github/workflows` directory in the root of your repository.
+
+In `.github/workflows`, add a `.yml` or `.yaml` file for your workflow. For example, `.github/workflows/vuepress-deploy.yml`.
+
+**For more information**:
+
+1. [Triggering new workflows using a personal access token](https://docs.github.com/en/actions/reference/events-that-trigger-workflows#triggering-new-workflows-using-a-personal-access-token)
+2. [Encrypted secrets](https://docs.github.com/en/actions/reference/encrypted-secrets)
+3. [Learn GitHub Actions](https://docs.github.com/en/actions/learn-github-actions)

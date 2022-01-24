@@ -1,29 +1,6 @@
 {
-  "name": "vuepress-with-netlify-cms",
-  "version": "1.0.0",
-  "description": "A website starter template with the default VuePress theme and Netlify CMS config",
-  "scripts": {
-    "build": "vuepress build docs",
-    "deploy": "npm run build && npx gh-pages -d docs/.vuepress/dist",
-    "dev": "vuepress dev docs"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/donnimsifa/Pendaftaran.git"
-  },
-  "keywords": [
-    "VuePress",
-    "Netlify",
-    "Netlify CMS",
-    "Netlify template"
-  ],
-  "author": "Donni Maulana Sifa (https://donnimsifa.github.io)",
+  "name": "vuepress-deploy",
+  "description": "A GitHub Action to build and deploy Vuepress sites to GitHub Pages",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/donnimsifa/Pendaftaran/issues"
-  },
-  "homepage": "https://vuepress-template.netlify.com",
-  "devDependencies": {
-    "vuepress": "^1.5.2"
-  }
+  "repository": "https://github.com/donnimsifa/pendaftaran"
 }
