@@ -3,6 +3,12 @@ const { description } = require('../package')
 module.exports = {
   title: 'Pendaftaran by Donni',
   description: description,
+  head: [
+    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+  ],
+
   base: '/Pendaftaran/',
 
   watch: {
@@ -29,24 +35,17 @@ module.exports = {
   }
   },
   
-  
-  head: [
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
-    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
-  ],
-  
   theme: 'vuepress-theme-succinct',
     globalUIComponents: [
         'ThemeManager'
   ],
   
   themeConfig: {
-    repo: '',
+    repo: 'https://donnimsifa.github.io/Pendaftaran',
     editLinks: false,
-    docsDir: '',
     editLinkText: '',
-    lastUpdated: false,
+    lastUpdated: true,
+    logo: '/homepage.png',
     nav: [
       {
         text: 'Guide',
@@ -55,10 +54,6 @@ module.exports = {
       {
         text: 'Config',
         link: '/config/'
-      },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
       }
     ],
     sidebar: {
@@ -75,9 +70,6 @@ module.exports = {
     }
   },
 
-  /**
-   * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
-   */
    plugins: [
     '@vuepress/plugin-back-to-top',
     'vuepress-plugin-smooth-scroll',
