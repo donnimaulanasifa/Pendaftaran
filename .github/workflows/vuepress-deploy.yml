@@ -7,8 +7,8 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - name: vuepress-deploy
-      uses: donnimsifa/pendaftaran@master
+    - name: Pendaftaran
+      uses: donnimsifa/Pendaftaran@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: username/repo
