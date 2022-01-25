@@ -6,8 +6,7 @@ module.exports = {
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['link', { rel: 'icon', href: 'favicon.ico', type: 'image/x-icon' }]
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
 
   base: '/Pendaftaran/',
@@ -49,12 +48,8 @@ module.exports = {
     logo: '/homepage.png',
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
-      },
-      {
-        text: 'Config',
-        link: '/config/'
+        text: 'Panduan',
+        link: '/panduan/',
       }
     ],
     sidebar: [{
@@ -64,6 +59,24 @@ module.exports = {
       children: [
           'pembukaan',
           'istilah',
+        ]
+    },
+    {
+        title: 'Panduan',
+        collapsable: false,
+        sidebarDepth: 2,
+        children: [{
+            title: 'Mendaftarkan',
+            collapsable: true,
+            path: '/panduan/',
+            sidebarDepth: 1,
+            children: [
+                '/panduan/loket-a',
+                '/panduan/loket-b',
+                '/panduan/igd',
+            ],
+        },
+            '/panduan/rawat-inap',
         ]
     }]
   },

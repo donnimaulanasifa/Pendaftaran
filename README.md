@@ -3,7 +3,7 @@ home: true
 heroImage: /RSMasmitra.png
 heroText: Panduan Pendaftaran
 actionText: Lihat Panduan →
-actionLink: Pembukaan.md
+actionLink: pembukaan.md
 
 meta:
 - name: description
