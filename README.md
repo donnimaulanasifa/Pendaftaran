@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /RSMasmitra.png
+heroImage: /homepage.png
 heroText: Panduan Pendaftaran
 actionText: Lihat Panduan →
 actionLink: pembukaan.md

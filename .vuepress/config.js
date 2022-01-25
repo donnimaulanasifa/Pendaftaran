@@ -49,7 +49,7 @@ module.exports = {
     repo: 'https://donnimsifa.github.io/Pendaftaran',
     editLinks: false,
     editLinkText: '',
-    logo: '/homepage.png',
+    logo: '/RSMasmitra.png',
     nav: [{
         text: 'Panduan',
         link: '/panduan/',
