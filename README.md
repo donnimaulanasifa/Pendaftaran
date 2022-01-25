@@ -1,63 +1,26 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6adff723-8d84-47f5-89cf-85f1c6711af0/deploy-status)](https://app.netlify.com/sites/vuepress-template/deploys)
-<a href="#" target="_blank">
-<img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
-</a>
+---
+home: true
+heroImage: /RSMasmitra.png
+heroText: Panduan Pendaftaran
+actionText: Buka Panduan→
+actionLink: prerequisites.md
 
-# VuePress with Netlify CMS
+meta:
+- name: description
+  content: Untuk TeraMedik 2021
+---
 
-> A website template with VuePress default theme and Netlify CMS config to get you started quickly
+# What is OpenCore and who is this guide for
 
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/petedavisdev/VuePress-with-Netlify-CMS&amp;stack=cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
+OpenCore is what we refer to as a "boot loader" – it is a complex piece of software that we use to prepare our systems for macOS – specifically by injecting new data for macOS such as SMBIOS, ACPI tables and kexts. How this tool differs from others like Clover is that it has been designed with security and quality in mind, allowing us to use many security features found on real Macs, such as [System Integrity Protection](https://support.apple.com/en-ca/HT204899) and [FileVault](https://support.apple.com/en-ca/HT204837). A more in-depth look can be found here: [Why OpenCore over Clover and others](why-oc.md)
 
-## Demo site
+This guide specifically focuses on two main things:
 
-<a href="https://vuepress-template.netlify.com/"><img src="https://raw.githubusercontent.com/petedavisdev/VuePress-with-Netlify-CMS/master/docs/.vuepress/public/media/VuePress_%2B_Netlify_CMS.png" alt="" /></a>
+* Installing macOS on an X86-based PC
+* Teaching you what makes your Hack work
 
-Deployed on Netlify: [vuepress-template.netlify.app](https://vuepress-template.netlify.app/)
+Because of this, you will be expected to read, learn and even use Google. This is not a simple one-click install setup.
 
-Deployed on GitHub Pages: [petedavisdev.github.io/VuePress-with-Netlify-CMS](https://petedavisdev.github.io/VuePress-with-Netlify-CMS/)
+Please remember that OpenCore is still new and currently in beta. While quite stable, and arguably much more stable than Clover in pretty much every way, it is still being frequently updated, so chunks of configuration change quite often (i.e. new quirks replacing old ones).
 
-## Features
-
-### VuePress "best of both" static site generator
-
-- Generates static html for every page so that your first page load is super fast
-- Once loaded, the site runs as a Single Page App (SPA), making it super slick
-
-### Default VuePress starter theme
-
-- Navbar
-- Homepage layout
-- Page layout
-- Sidebar with heading navigation
-- Use Vue components within markdown to enhance your content
-- Customise your site by [inheriting from this default theme](https://vuepress.vuejs.org/theme/inheritance.html) or [create your own from scratch](https://vuepress.vuejs.org/theme/writing-a-theme.html)
-
-### Netlify's CMS integration
-
-- User-friendly content editor with styled preview hosted at /admin on your website
-- Git-powered editorial workflow manages content in your repo automatically
-- Homepage fully configured with delete prevention
-- Page collection configured so that you can start creating content straight away
-
-## Read the docs!
-
-[How to use this templage](https://vuepress-template.netlify.app/guide/)
-
-[Official VuePress guide](https://vuepress.vuejs.org/guide/)
-
-[VuePress default theme config](https://vuepress.vuejs.org/theme/default-theme-config.html)
-
-[Netlify CMS docs](https://www.netlifycms.org/docs/intro/)
-
-## Contribute
-
-This template is default VuePress - so please give your [skills](https://github.com/vuejs/vuepress) or [money](https://opencollective.com/vuepress) to the [VuePress team](https://github.com/vuejs/vuepress).
-
-## Author
-
-Pete Davis
-
-- Website: [petedavis.dev](https://petedavis.dev)
-- Github: [@petedavisdev](https://github.com/petedavisdev)
-- Twitter: [@petedavisdev](https://twitter.com/petedavisdev)
+Lastly, those having issues can visit both the [r/Hackintosh subreddit](https://www.reddit.com/r/hackintosh/) and [r/Hackintosh Discord](https://discord.gg/u8V7N5C) for more help.
