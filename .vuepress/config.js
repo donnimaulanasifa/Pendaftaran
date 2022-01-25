@@ -1,7 +1,7 @@
 const { description } = require('../package')
 
 module.exports = {
-  title: 'Pendaftaran by Donni',
+  title: 'Panduan Pendaftaran RS Masmitra',
   description: description,
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
