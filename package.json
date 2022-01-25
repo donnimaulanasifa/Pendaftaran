@@ -1,8 +1,8 @@
 {
-    "name": "pendaftaran",
-    "version": "0.0.1",
-    "description": "this is a documentation",
-    "main": "index.js",
+    "name": "pendaftaran-rs-masmitra",
+    "version": "1",
+    "description": "Panduan bagian pendaftaran di Rumah Sakit Masmitra",
+    "main": "",
     "authors": {
       "name": "Donni Maulana Sifa",
       "url": "donnimsifa.github.io"

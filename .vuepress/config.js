@@ -57,18 +57,15 @@ module.exports = {
         link: '/config/'
       }
     ],
-    sidebar: {
-      '/guide/': [
-        {
-          title: 'Guide',
-          collapsable: false,
-          children: [
-            '',
-            'using-vue',
-          ]
-        }
-      ],
-    }
+    sidebar: [{
+      title: 'Penting',
+      collapsable: false,
+      sidebarDepth: 1,
+      children: [
+          'pembukaan',
+          'istilah',
+        ]
+    }]
   },
 
    plugins: [
