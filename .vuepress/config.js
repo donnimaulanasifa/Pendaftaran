@@ -6,7 +6,11 @@ module.exports = {
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ["link", {
+      rel: "'stylesheet",
+      href: "/styles/website.css"
+    },]
   ],
 
   base: '/Pendaftaran/',
@@ -41,13 +45,12 @@ module.exports = {
   ],
   
   themeConfig: {
+    lastUpdated: true,
     repo: 'https://donnimsifa.github.io/Pendaftaran',
     editLinks: false,
     editLinkText: '',
-    lastUpdated: true,
     logo: '/homepage.png',
-    nav: [
-      {
+    nav: [{
         text: 'Panduan',
         link: '/panduan/',
       }
@@ -60,6 +63,7 @@ module.exports = {
           'pembukaan',
           'istilah',
         ]
+
     },
     {
         title: 'Panduan',
@@ -78,7 +82,7 @@ module.exports = {
         },
             '/panduan/rawat-inap',
         ]
-    }]
+    }],
   },
 
    plugins: [
