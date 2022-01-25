@@ -82,7 +82,8 @@ module.exports = {
         },
             '/panduan/rawat-inap',
         ]
-    }],
+    },
+    ],
   },
 
    plugins: [
