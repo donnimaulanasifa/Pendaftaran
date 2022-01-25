@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /homepage.png
-heroText: Panduan Pendaftaran
+heroText: Panduan Pendaftaran RS Masmitra
 actionText: Lihat Panduan →
 actionLink: pembukaan.md
 

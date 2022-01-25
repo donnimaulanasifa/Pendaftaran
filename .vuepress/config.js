@@ -46,13 +46,13 @@ module.exports = {
   
   themeConfig: {
     lastUpdated: true,
-    repo: 'https://donnimsifa.github.io/Pendaftaran',
+    repo: 'https://github.com/donnimsifa',
     editLinks: false,
     editLinkText: '',
     logo: '/RSMasmitra.png',
     nav: [{
-        text: 'Panduan',
-        link: '/panduan/',
+        text: 'Pembukaan',
+        link: '/pembukaan',
       }
     ],
     sidebar: [{
