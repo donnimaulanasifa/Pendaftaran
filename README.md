@@ -7,7 +7,7 @@ actionLink: pembukaan.md
 
 meta:
 - name: description
-  content: Dengan SIMRS TeraMedik 2022
+  content: Dengan SIMRS TeraMedik
 ---
 
 # Sejarah Rumah Sakit Masmitra

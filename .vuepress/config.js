@@ -62,6 +62,8 @@ module.exports = {
       children: [
           'pembukaan',
           'istilah',
+          'notel',
+          'logintera',
         ]
 
     },
