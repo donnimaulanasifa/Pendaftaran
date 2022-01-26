@@ -51,8 +51,8 @@ module.exports = {
     editLinkText: '',
     logo: '/RSMasmitra.png',
     nav: [{
-        text: 'Pembukaan',
-        link: '/pembukaan',
+        text: 'Direct Message @donnimsifa',
+        link: 'https://instagram.com/donnimsifa',
       }
     ],
     sidebar: [{
@@ -60,30 +60,40 @@ module.exports = {
       collapsable: false,
       sidebarDepth: 1,
       children: [
-          'pembukaan',
-          'istilah',
-          'notel',
-          'logintera',
+          '/penting/pembukaan',
+          '/penting/pasien',
+          '/penting/istilah',
+          '/penting/notel',
         ]
 
     },
     {
-        title: 'Panduan',
+        title: 'Tera Medik',
         collapsable: false,
         sidebarDepth: 2,
-        children: [{
-            title: 'Mendaftarkan',
-            collapsable: true,
-            path: '/panduan/',
-            sidebarDepth: 1,
-            children: [
-                '/panduan/loket-a',
-                '/panduan/loket-b',
-                '/panduan/igd',
-            ],
-        },
-            '/panduan/rawat-inap',
+        children: [
+            '/teramedik/logintera',
+            '/teramedik/loket-a',
+            '/teramedik/loket-b',
+            '/teramedik/igd',
+            '/teramedik/rawat-inap',
         ]
+      },
+      {
+        title: 'Asuransi',
+        collapsable: false,
+        sidebarDepth: 2,
+        children: [
+            '/asuransi/gesek',
+            '/asuransi/admedika',
+        ]
+      },
+      {
+          title: 'Lain-lain',
+          collapsable: false,
+          children: [
+              '/lainlain/update',
+          ]
       },
     ],
   },
