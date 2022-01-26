@@ -73,10 +73,11 @@ module.exports = {
         sidebarDepth: 2,
         children: [
             '/teramedik/logintera',
-            '/teramedik/loket-a',
-            '/teramedik/loket-b',
+            '/teramedik/panggil',
+            '/teramedik/pasienterdaftar',
             '/teramedik/igd',
             '/teramedik/rawat-inap',
+            '/teramedik/printantrian',
         ]
       },
       {
