@@ -11,11 +11,11 @@ setelah masuk, tampilan akan menjadi seperti ini
 ![admedika](../images/admedika.png)
 
 1. Masukan nomor kartu pada bagian " swipe / enter the card here"
-2. [Pilih salah satu menu yang tersedia, penjelasannya disini](/asuransi/admedika.html#penjelasan-menu-admedika)
+2. [Pilih salah satu menu yang tersedia, penjelasannya disini](./asuransi/admedika.html#penjelasan-menu-admedika)
 3. Diagnosis dan Remarks tidak diisi tidak apa apa.
 4. Klik "Eligibility"
 
-Akan muncul tampilan seperti dibawah, silahkan cek terlebih dahulu apakah pasien yang bersangkutan memiliki benefit untuk ke poli tujuan, kemudian print seperti dibawah ini. [apabila muncul error, klik disini](/asuransi/admedika.html#apabila-error)
+Akan muncul tampilan seperti dibawah, silahkan cek terlebih dahulu apakah pasien yang bersangkutan memiliki benefit untuk ke poli tujuan, kemudian print seperti dibawah ini. [apabila muncul error, klik disini](./asuransi/admedika.html#apabila-error)
 
 ## Penjelasan menu admedika
 

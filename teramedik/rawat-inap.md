@@ -5,7 +5,7 @@
 
 ## Pasien Pribadi/Asuransi
 
-[Bisa dilihat di bagian asuransi apabila pasien asuransi](/asuransi/gesek.html)
+[Bisa dilihat di bagian asuransi apabila pasien asuransi](./asuransi/gesek.html)
 
 ## Pasien BPJS
 
