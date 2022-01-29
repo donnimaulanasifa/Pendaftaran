@@ -16,7 +16,7 @@ Riwayat kunjungan pasien dapat dilihat dengan klik menu Riwayat kunjungan di seb
 
 ![klik-riwayat-kunjungan](../images/klik-riwayat-kunjungan.png)
 
-Setelah menu tersebut di buka, maka contohnya akan tampi seperti berikut, berarti pasien tersebut telah datang ke rs selama sebulan terakhir sebanyak satu kali. namun, apabila terlihat kosong, bisa dilihat di menu dibawahnya, [riwayat kunjungan pasien dari tanggal tertentu](/teramedik/datapasien.html#riwayat-kunjungan-pasien-dari-tanggal-tertentu).
+Setelah menu tersebut di buka, maka contohnya akan tampi seperti berikut, berarti pasien tersebut telah datang ke rs selama sebulan terakhir sebanyak satu kali. namun, apabila terlihat kosong, bisa dilihat di menu dibawahnya, [riwayat kunjungan pasien dari tanggal tertentu](./teramedik/datapasien.html#riwayat-kunjungan-pasien-dari-tanggal-tertentu).
 
 ![lihat-data-pasien](../images/lihat-data-pasien.png)
 
