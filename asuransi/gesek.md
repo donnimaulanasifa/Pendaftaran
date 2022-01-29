@@ -1,6 +1,6 @@
 # Gesek Asuransi
 
-Berikut adalah tampilan dari google chrome untuk gesek asuransi
+Berikut adalah asuransi yang bekerja sama dengan RS Masmitra dan cara gesek asuransi tersebut.
 
 ![google-chrome](../images/asuransi/google-chrome.png)
 
