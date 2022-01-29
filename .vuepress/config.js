@@ -51,7 +51,7 @@ module.exports = {
     editLinkText: '',
     logo: '/RSMasmitra.png',
     nav: [{
-        text: 'Direct Message @donnimsifa',
+        text: 'Direct Message donnimsifa',
         link: 'https://instagram.com/donnimsifa',
       }
     ],
@@ -73,11 +73,15 @@ module.exports = {
         sidebarDepth: 2,
         children: [
             '/teramedik/logintera',
+            '/teramedik/daftarmenu',
             '/teramedik/panggil',
+            '/teramedik/pasienbaru',
+            '/teramedik/pasienlama',
+            '/teramedik/printantriandanbilling',
             '/teramedik/pasienterdaftar',
             '/teramedik/igd',
             '/teramedik/rawat-inap',
-            '/teramedik/printantrian',
+            '/teramedik/datapasien',
         ]
       },
       {
