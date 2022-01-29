@@ -28,7 +28,7 @@ Setelah memilih loket A atau Loket B, berikut adalah contoh dari loket A, bagian
 
 ![mengambil-antrian-l1](../images/teramedik/mengambil-antrian-l1.png)
 
-# Memanggil Nomor Antrian Pasien
+## Memanggil Nomor Antrian Pasien
 
 Perhatikan nomor yang tertera pada bagian kiri.
 

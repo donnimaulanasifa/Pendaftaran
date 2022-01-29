@@ -6,6 +6,8 @@ Berikut adalah menu di TeraMedik beserta penjelasannya
 
 menu pendaftaran
 
+**belum ada gambar**
+
 ## Menu Pasien yang sudah Daftar
 
 ![menu-pendaftaran](../images/teramedik/pasien-yg-sudah-daftar-menu.png)
@@ -76,7 +78,10 @@ menu pendaftaran
 
 Transfer / Mutasi Kamar
 
+**belum ada gambar**
+
 ## Menu Konfirmasi Penunjang Medis
 
 Konfirmasi Penunjang Medis
 
+**belum ada gambar**
