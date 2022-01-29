@@ -1,6 +1,6 @@
 # Pasien Perjanjian
 
-![tarik-perjanjian](../images/tarik-perjanjian.png)
+![tarik-perjanjian](../images/teramediktarik-perjanjian.png)
 
 
 

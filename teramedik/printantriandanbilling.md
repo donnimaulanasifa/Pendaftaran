@@ -6,30 +6,30 @@ Setelah mendaftarkan pasien, langkah selanjutnya adalah cetak antrian dan billin
 
 jika muncul seperti ini, silahkan klik print
 
-![cetak-antrian](../images/cetak-antrian.png)
+![cetak-antrian](../images/teramedikcetak-antrian.png)
 
 
 
-![print-antrian-print](../images/print-antrian-print.png)
+![print-antrian-print](../images/teramedikprint-antrian-print.png)
 
-![print-antrian](../images/print-antrian.png)
+![print-antrian](../images/teramedikprint-antrian.png)
 
 ## Print Billing / Cetak Bukti Pelayanan
 
 
 
-![klik-bukti-pelayanan](../images/klik-bukti-pelayanan.png)
+![klik-bukti-pelayanan](../images/teramedikklik-bukti-pelayanan.png)
 
 
 
 Berikut adalah contoh print billing / cetak bukti pelayanan
 
-![contoh-print-billing](../images/contoh-print-billing.png)
+![contoh-print-billing](../images/teramedikcontoh-print-billing.png)
 
 
 
-![popup-print-billing](../images/popup-print-billing.png)
+![popup-print-billing](../images/teramedikpopup-print-billing.png)
 
 
 
-![print-billing](../images/print-billing.png)
+![print-billing](../images/teramedikprint-billing.png)

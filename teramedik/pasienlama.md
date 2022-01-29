@@ -1,3 +1,3 @@
 # Mencari Pasien di Sistem Tera Medik
 
-![pasien-lama](../images/pasien-lama.png)
+![pasien-lama](../images/teramedikpasien-lama.png)

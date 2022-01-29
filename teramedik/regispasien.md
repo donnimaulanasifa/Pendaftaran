@@ -1,19 +1,19 @@
 # Mendaftarkan Pasien ke Poli
 
-![mendaftarkan-pasien](../images/mendaftarkan-pasien.png)
+![mendaftarkan-pasien](../images/teramedikmendaftarkan-pasien.png)
 
 
 
 
 
-![pendaftaran-pasien](../images/pendaftaran-pasien.png)
+![pendaftaran-pasien](../images/teramedikpendaftaran-pasien.png)
 
-![perjanjian-pasien](../images/perjanjian-pasien.png)
+![perjanjian-pasien](../images/teramedikperjanjian-pasien.png)
 
-![simpan-pasien](../images/simpan-pasien.png)
+![simpan-pasien](../images/teramediksimpan-pasien.png)
 
 error
 
 
 
-![pasien-ada-perjanjian](../images/pasien-ada-perjanjian.png)
+![pasien-ada-perjanjian](../images/teramedikpasien-ada-perjanjian.png)

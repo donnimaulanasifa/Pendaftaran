@@ -6,4 +6,4 @@ Panduan ini bukanlah panduan resmi, melainkan dibuat atas inisiatif sendiri oleh
 
 Panduan ini terakhir diperbaharui 30 Januari 2022.
 
-[Lihat Rincian Perubahan dan Riwayat disini](./lainlain/update)
+[Lihat Rincian Perubahan dan Riwayat disini](./lainlain/update.html)
