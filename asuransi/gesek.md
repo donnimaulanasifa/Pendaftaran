@@ -4,7 +4,7 @@ Berikut adalah tampilan dari google chrome untuk gesek asuransi
 
 ![google-chrome](../images/google-chrome.png)
 
-1. [Admedika](./asuransi/admedika)
+1. [Admedika](./admedika)
 2. Gmail
 3. Fullertron
 4. Mandiri InHealth
