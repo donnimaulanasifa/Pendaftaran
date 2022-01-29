@@ -2,28 +2,29 @@
     "name": "pendaftaran-rs-masmitra",
     "version": "0.0.2",
     "description": "Panduan bagian pendaftaran di Rumah Sakit Masmitra",
-    "main": "",
+    "main": "index.js",
     "authors": {
-      "name": "Donni Maulana Sifa",
-      "url": "donnimsifa.github.io"
+        "name": "Donni Maulana Sifa",
+        "url": "donnimsifa.github.io"
     },
     "repository": {
         "type": "git",
         "url": "git+https://donnimsifa.github.io/Pendaftaran.git"
-     },
+    },
     "scripts": {
         "dev": "vuepress dev",
         "build": "vuepress build"
     },
     "license": "MIT",
     "devDependencies": {
-      "@vuepress/plugin-back-to-top": "^1.8.2",
-      "markdown-it-multimd-table": "^4.1.0",
-      "markdown-link-check": "^3.8.7",
-      "markdownlint-cli": "^0.27.1",
-      "vuepress": "^1.8.2",
-      "vuepress-plugin-medium-zoom": "^1.1.9",
-      "vuepress-plugin-zooming": "^1.1.8",
-      "vuepress-theme-succinct": "^1.7.2"
-   }
-  }
+        "@vuepress/plugin-back-to-top": "^1.8.2",
+        "markdown-it-multimd-table": "^4.1.0",
+        "markdown-link-check": "^3.8.7",
+        "markdownlint-cli": "^0.27.1",
+        "v-dialogs": "^2.1.4",
+        "vuepress": "^1.8.2",
+        "vuepress-plugin-medium-zoom": "^1.1.9",
+        "vuepress-plugin-zooming": "^1.1.8",
+        "vuepress-theme-succinct": "^1.7.2"
+    }
+}

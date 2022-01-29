@@ -11,6 +11,15 @@
  --sideBgColor $sideBgColorDark
  --dropShadowColor $dropShadowColor
 
+shadow()
+  box-shadow 0 .125rem 1rem rgba(0,0,0,.1) !important
+
+border()
+  border 1px solid $borderColor
+  padding 5px
+  margin-top 1rem
+  border-radius 5px
+
 .home .hero img
   max-width 450px!important
   
@@ -47,3 +56,81 @@ tr
   background-color var(--sideBgColor)!important
   box-shadow 0px 0px 2px var(--bodyBgColor)
   right -12%!important
+
+.text-center
+  text-align center
+.nowrap
+  white-space nowrap
+
+.img
+  height 150px
+  width 150px
+
+.img-small
+  height $qcode-width
+  width $qcode-width
+  // object-fit cover
+
+.border
+  border()
+
+.shadow
+  shadow()
+
+.border-shadow
+  border()
+  transition box-shadow .3s ease
+  &:hover
+    shadow()
+
+.danger
+  color red
+
+.contains-task-list LI
+  list-style-type none
+
+div.v-dialog-overlay
+  opacity : 1!important;
+  background-color: var(--bodyBgColor)!important;
+
+div.v-dialog div.v-dialog-content
+  background-color: var(--bodyBgColor)!important;
+
+.login-form
+  padding: 1rem
+  display flex
+  flex-direction column
+  box-sizing border-box
+  .btn-row
+    position: block
+    margin-left:auto
+    margin-right:auto
+  .btn
+    padding 0.6rem 2rem
+    outline none
+    background-color var(--accentColor)
+    color var(--codeBgColor)
+    border 0
+  .form-header
+    text-align center
+    font-size 24px
+    color var(--textColor)
+    margin-bottom 0.5rem
+  .form-control
+    text-align center
+    color var(--textColor)
+    padding 0.6rem
+    border 2px solid var(--bodyBgColor)
+    background-color var(--bodyBgColor)
+    width 100%
+    margin-bottom 0.5rem
+    box-sizing border-box
+    outline none
+    transition border 0.2s ease
+    &:focus
+      border 2px solid #aaa
+  .form-bottom
+    text-align center
+    color var(--textColor)
+    font-size 14px
+    margin-top 5rem

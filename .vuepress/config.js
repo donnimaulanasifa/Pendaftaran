@@ -4,13 +4,14 @@ module.exports = {
   title: 'Panduan Pendaftaran RS Masmitra',
   description: description,
   head: [
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
-    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ["link", {
       rel: "'stylesheet",
       href: "/styles/website.css"
-    },]
+    },
+    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ]
   ],
 
   base: '/Pendaftaran/',
@@ -32,6 +33,7 @@ module.exports = {
   },
 
   markdown: {
+  lineNumbers: true,
   extendMarkdown: md => {
     md.use(require('markdown-it-multimd-table'), {
       rowspan: true,
