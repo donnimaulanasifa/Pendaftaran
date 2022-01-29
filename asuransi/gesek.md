@@ -2,7 +2,7 @@
 
 Berikut adalah tampilan dari google chrome untuk gesek asuransi
 
-![google-chrome](../images/teramedikasuransi/google-chrome.png)
+![google-chrome](../images/asuransi/google-chrome.png)
 
 1. [Admedika](./admedika)
 2. Gmail

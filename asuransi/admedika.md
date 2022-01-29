@@ -2,13 +2,13 @@
 
 Masuk ke website admedika, dan masuk menggunakan akun RS Masmitra
 
-![login-admedika](../images/teramedikasuransi/login-admedika.png)
+![login-admedika](../images/asuransi/login-admedika.png)
 
 ## Gesek Asuransi Admedika
 
 setelah masuk, tampilan akan menjadi seperti ini
 
-![admedika](../images/teramedikasuransi/admedika.png)
+![admedika](../images/asuransi/admedika.png)
 
 1. Masukan nomor kartu pada bagian " swipe / enter the card here"
 2. [Pilih salah satu menu yang tersedia, penjelasannya disini](./admedika.html#penjelasan-menu-admedika)

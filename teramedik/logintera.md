@@ -2,7 +2,7 @@
 
 Akun TeraMedik diperlukan untuk mengakses menu yang tersedia. berikut tampilan masuk dari TeraMedik
 
-![login-teramedik](../images/teramediklogin-teramedik.png)
+![login-teramedik](../images/teramedik/login-teramedik.png)
 
 
 
@@ -10,12 +10,12 @@ Akun TeraMedik diperlukan untuk mengakses menu yang tersedia. berikut tampilan m
 
 Setelah login di TeraMedik, tampilannya akan menjadi seperti gambar dibawah ini
 
-![tampilan-utama](../images/teramediktampilan-utama.png)
+![tampilan-utama](../images/teramedik/tampilan-utama.png)
 
 Untuk mengakses bagian pendaftaran, klik 3 garis di pojok kiri atas, lalu pilih bagian "Pendaftaran"
 
-![menu-teramedik](../images/teramedikmenu-teramedik.png)
+![menu-teramedik](../images/teramedik/menu-teramedik.png)
 
 Berikut adalah tampilan depan bagian pendaftaran.
 
-![tampilan-utama-pendaftaran](../images/teramediktampilan-utama-pendaftaran.png)
+![tampilan-utama-pendaftaran](../images/teramedik/tampilan-utama-pendaftaran.png)

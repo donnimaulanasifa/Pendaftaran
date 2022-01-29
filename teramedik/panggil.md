@@ -10,7 +10,7 @@ Submenu dari antrian pendaftaran ada 2
 
    > Memunculkan antrian pasien di rumah sakit masmitra
 
-![antrian-pendaftaran](../images/teramedikantrian-pendaftaran.png)
+![antrian-pendaftaran](../images/teramedik/antrian-pendaftaran.png)
 
 Bagian pendaftaran, gunakan submenu kedua yaitu Plasma Antrian
 
@@ -18,46 +18,60 @@ Bagian pendaftaran, gunakan submenu kedua yaitu Plasma Antrian
 
 Berikut adalah tampilan awal dari bagian plasma antrian
 
-![plasma-antrian](../images/teramedikplasma-antrian.png)
+![plasma-antrian](../images/teramedik/plasma-antrian.png)
 
 Bagian pendaftaran dapat memilih loket A Pribadi/Asuransi, atau loket B BPJS/LKM
 
-![menu-loket-antrian](../images/teramedikmenu-loket-antrian.png)
+![menu-loket-antrian](../images/teramedik/menu-loket-antrian.png)
 
 Setelah memilih loket A atau Loket B, berikut adalah contoh dari loket A, bagian yang hijau adalah informasi bahwa pasien tersebut telah dipanggil, contoh dari gambar ini, pasien dengan nomor antrian A11 atau pasien dengan nomor antrian berlatar belakang putih memberi informasi pasien tersebut belum dipanggil, sedangkan pasien dengan nomor Antrian A5 hingga A10 atau yang berlatar hijau telah dipanggil, dan dipanggilnya di Loket 3.
 
-![mengambil-antrian-l1](../images/teramedikmengambil-antrian-l1.png)
+![mengambil-antrian-l1](../images/teramedik/mengambil-antrian-l1.png)
 
 # Memanggil Nomor Antrian Pasien
 
 Perhatikan nomor yang tertera pada bagian kiri.
 
-![mengambil-antrian-l1](../images/teramedikmengambil-antrian-l1.png)
+![mengambil-antrian-l1](../images/teramedik/mengambil-antrian-l1.png)
 
 Dua simbol yang ada pada samping kanan "Panggil", memiliki arti yang pertama nomor naik satu tingkat, dan yang kedua naik sampai antrian paling atas. Untuk berpindah dari A10 ke A11 dapat menggunakan simbol yang pertama dan dapat menggunakan simbol yang kedua disamping "Panggil".
 
-![mengambil-antrian](../images/teramedikmengambil-antrian.png)
+![mengambil-antrian](../images/teramedik/mengambil-antrian.png)
 
-Setelah 
+Setelah simbol panah di klik 
 
-![mengambil-antrian-ya](../images/teramedikmengambil-antrian-ya.png)
+![mengambil-antrian-ya](../images/teramedik/mengambil-antrian-l1-a11.png)
 
-![loket-antrian-a](../images/teramedikloket-antrian-a.png)
+Kemudian klik "panggil", maka pasien A11 akan dipanggil untuk menuju loket 1, dan baris A11 akan menjadi berlatar hijau
 
-![mengambil-antrian-l1](../images/teramedikmengambil-antrian-l1.png)
-
-![mengambil-antrian-l3](../images/teramedikmengambil-antrian-l3.png)
+![loket-antrian-a](../images/teramedik/loket-antrian-a11-a1.png)
 
 
 
 ## Panggil pasien di Loket lain
 
-![mengambil-antrian-ya](../images/teramedikmengambil-antrian-ya.png)
+Pasien A11 akan dipanggil di loket 3, maka klik lingkaran dibawa loket 3 pada kolom A11.
 
-![mengambil-antrian](../images/teramedikmengambil-antrian.png)
+![mengambil-antrian-l1](../images/teramedik/mengambil-antrian-l1.png)
+
+Akan ada konfirmasi, klik "ok"
+
+![mengambil-antrian-ya](../images/teramedik/mengambil-antrian-ya.png)
+
+sama seperti sebelumnya, dua simbol yang ada pada samping kanan "Panggil", memiliki arti yang pertama nomor naik satu tingkat, dan yang kedua naik sampai antrian paling atas. Untuk berpindah dari A10 ke A11 dapat menggunakan simbol yang pertama dan dapat menggunakan simbol yang kedua disamping "Panggil".
+
+![mengambil-antrian](../images/teramedik/mengambil-antrian.png)
+
+Setelah simbol panah di klik 
+
+![mengambil-antrian-l3](../images/teramedik/mengambil-antrian-l3.png)
+
+Kemudian klik "panggil", maka pasien A11 akan dipanggil untuk menuju loket 3, dan baris A11 akan menjadi berlatar hijau
+
+![mengambil-antrian-l3](../images/teramedik/loket-antrian-a.png)
 
 ## View Plasma
 
 Menu ini akan memunculkan loket 1 sampai 4 beserta nomor antrian terakhir yang dipanggil.
 
-![view-plasma](../images/teramedikview-plasma.png)
+![view-plasma](../images/teramedik/view-plasma.png)

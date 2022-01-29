@@ -8,13 +8,13 @@ menu pendaftaran
 
 ## Menu Pasien yang sudah Daftar
 
-![menu-pendaftaran](../images/teramedikpasien-yg-sudah-daftar-menu.png)
+![menu-pendaftaran](../images/teramedik/pasien-yg-sudah-daftar-menu.png)
 
 > Memberikan informasi atau menu untuk mencari pasien yang sudah didaftarkan oleh bagian pendaftaran
 
 ## Menu Perjanjian
 
-![menu-perjanjian](../images/teramedikmenu-perjanjian.png)
+![menu-perjanjian](../images/teramedik/menu-perjanjian.png)
 
 1. Reg Pasien Perjanjian
 
@@ -50,7 +50,7 @@ menu pendaftaran
 
 ## Menu Laporan
 
-![menu-laporan](../images/teramedikmenu-laporan.png)
+![menu-laporan](../images/teramedik/menu-laporan.png)
 
 1. Jadwal Operasi
 
@@ -62,7 +62,7 @@ menu pendaftaran
 
 ## Menu Antrian Pendaftaran
 
-![antrian-pendaftaran](../images/teramedikantrian-pendaftaran.png)
+![antrian-pendaftaran](../images/teramedik/antrian-pendaftaran.png)
 
 1. Kios Antrian
 
